@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9494e4086bd59904eb4b33e4c5b4b5a1, type: 3}
+  m_Name: one handed sword
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4940015111377268, guid: ea53cc3bca89f1f4c8c11510ffc65116,
+    type: 2}
+  weaponPrefab: {fileID: 1277290872445230, guid: 0982ce6c23f616d4bae4c222799510a6,
+    type: 2}
+  attackAnimation: {fileID: 7400000, guid: 01ce608905e9d3e48928ced7d03f19ed, type: 3}
+  minTimeBetweenHits: 1
+  maxAttackRange: 3
+  additionalDamage: 1
+  weaponType: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7fe02fcb4c3304687aebc51a4fbdb8, type: 3}
+  m_Name: Sword Slash
+  m_EditorClassIdentifier: 
+  energyCost: 1
+  coolDown: 3
+  attackTime: 5
+  attackDamage: 5
+  difficulty: 1
+  particlePrefab: {fileID: 1437667395965122, guid: b4e625c2a3bd0f54697c7b3dc65c596a,
+    type: 2}
+  audioClips:
+  - {fileID: 8300000, guid: b5f02c2d285aef74fb46ee103b8f5ca4, type: 3}
+  animation: {fileID: 7400000, guid: 96ed5e4a6dc56fe4c9c2de75fc8a077c, type: 3}
+  type: 0
+  area: 0
+  skillType: 0
